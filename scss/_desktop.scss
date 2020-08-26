@@ -1,0 +1,32 @@
+.container {
+    max-width: 80vw;
+}
+.card-container {
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.text-container {
+    margin: 0 auto;
+    max-width: 32rem;
+}
+.card {
+    max-width: 20rem;
+}
+#super.card {
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+}
+#team.card {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+}
+#karma.card {
+    grid-column: 2 / 3;
+    grid-row: 4 / 7;
+}
+#calc.card {
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+}
