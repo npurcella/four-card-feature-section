@@ -2,7 +2,7 @@
     margin: 3rem auto 2rem;
     padding: 2rem 2rem 0;
     text-align: center;
-    font-family: "Poppins", sans-serif;
+    font-family: $defaultFontStyle;
     font-size: $defaultFontSize;
     font-weight: $lightFontWeight;
     h1 {
@@ -79,6 +79,7 @@
 .attribution {
     font-size: 11px;
     text-align: center;
+    font-family: $defaultFontStyle;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
